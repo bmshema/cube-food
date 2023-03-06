@@ -1,0 +1,12 @@
+.menu-container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+}
