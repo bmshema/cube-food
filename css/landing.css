@@ -1,12 +1,41 @@
+* {
+    margin:0%;
+}
+
 .menu-container {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    margin-right: auto;
+}
+
+.logo-text {
+    margin-left: 5px;
+    font-size:x-large
 }
 
 .links {
     display: flex;
-    justify-content: space-around;
-    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+}
+
+/* Makes the navigation links white regardless of state */
+a, a:hover, a:active, a:visited {
+    color: white;
+    text-decoration: none;
 }
