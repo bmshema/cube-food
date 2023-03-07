@@ -1,5 +1,8 @@
 body {
     margin:0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* font-size: 0.835vw; //around 14px at 1920px */
 }
 
 .menu-container {
@@ -10,6 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 10%;
+    padding-top: 2%;
 }
 
 .logo-group {
@@ -18,17 +22,18 @@ body {
 }
 
 #logo {
-    height: 60px;
+    height: 8em;
     width: auto;
 }
 
 .logo-text {
-    margin-left: 5px;
-    font-size: x-large;
+    margin-left: 10px;
+    font-size:2rem;
 }
 
 .nav-links {
     padding-right: 10%;
+    font-size: 2rem;
 }
 
 .about,.contact {
@@ -39,4 +44,44 @@ body {
 a, a:hover, a:active, a:visited {
     color: white;
     text-decoration: none;
+}
+
+/* Start of overview section */
+.overview {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-color:#1f2937;
+    color: white;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.o-left-text {
+    padding-right: 7%;
+}
+
+#cube-dude {
+    max-width: 45%;
+    height: auto;
+    box-shadow: 0 0 20px;
+}
+
+.signup {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color:  #19a6f7;
+    cursor: pointer;
+    box-shadow: 0 0 20px;
+    top: 475px;
 }
