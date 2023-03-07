@@ -190,3 +190,17 @@ a, a:hover, a:active, a:visited {
 #click-over {
     margin-top: 0px;
 }
+
+.footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+}
+
+#footer-text {
+    padding: 25px 0px 25px 0px;
+    font-size: larger;
+}
