@@ -128,8 +128,7 @@ a, a:hover, a:active, a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7vw;
-    font-style: italic;
+
 }
 
 .quote-section {
@@ -139,7 +138,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .quote-container {
-    padding: 5% 30% 1% 30%;
+    padding: 5% 30% 4% 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -147,9 +146,12 @@ a, a:hover, a:active, a:visited {
 
 #quote {
     margin-bottom: 0px;
+    font-size: 1.7vw;
+    font-style: italic;
 }
 
 #sig {
-    margin-top: 0px;    
+    margin-top: 0px;
+    font-size: 1.3vw;    
 }
 
