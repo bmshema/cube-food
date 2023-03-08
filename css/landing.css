@@ -2,7 +2,6 @@ body {
     margin:0%;
     background-size: cover;
     background-repeat: no-repeat;
-    /* font-size: 0.835vw; //around 14px at 1920px */
 }
 
 .menu-container {
@@ -40,13 +39,11 @@ body {
     padding-left: 20px;
 }
 
-/* Makes the navigation links white regardless of state */
 a, a:hover, a:active, a:visited {
     color: white;
     text-decoration: none;
 }
 
-/* Start of overview section */
 .overview {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10%; 
@@ -162,13 +159,11 @@ a, a:hover, a:active, a:visited {
     align-items: center;
     background-color: #3882F6 ;
     margin: 3% 15% 3% 15%;
-    /* padding: 0% 10% 0% 10%; */
     border-radius: 4px;
     padding: 15px 0px 15px 0px;
 }
 
 .signup2 {
-    /* margin-top: 15px; */
     font-size: 1.5rem;
     border: 0;
     border-radius: 4px;
