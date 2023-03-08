@@ -6,7 +6,7 @@ body {
 }
 
 .menu-container {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     color: white;
     background-color: #1f2937;
     display: flex;
@@ -48,7 +48,7 @@ a, a:hover, a:active, a:visited {
 
 /* Start of overview section */
 .overview {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: sans-serif;
     padding-left: 10%; 
     padding-right: 10%;
     padding-top: 5%;
