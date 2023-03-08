@@ -97,7 +97,7 @@ a, a:hover, a:active, a:visited {
 .pic-group {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1% 10% 4% 10%;
 }
 
@@ -105,21 +105,24 @@ a, a:hover, a:active, a:visited {
     width: 320.86px;
     height: auto;
     box-shadow: 0 0 20px;
-    border: 5;
     border-color: black;
     border-radius: 4px;
 }
 
-.pic1,.pic2,.pic3,.pic4 {
+.image {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
+.pic1,.pic2 {
+    /* padding-right: 25px; */
+}
+
 .pic-text {
-    padding: 0px 16px 0px 16px;
+    max-width: 320.86px;
 }
 
 .quote-section {
