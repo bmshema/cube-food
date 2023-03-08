@@ -6,7 +6,7 @@ body {
 }
 
 .menu-container {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: #1f2937;
     display: flex;
@@ -48,7 +48,7 @@ a, a:hover, a:active, a:visited {
 
 /* Start of overview section */
 .overview {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10%; 
     padding-right: 10%;
     padding-top: 5%;
@@ -87,7 +87,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .pics {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .pic-group {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 1% 10% 4% 10%;
@@ -117,16 +117,12 @@ a, a:hover, a:active, a:visited {
     text-align: center;
 }
 
-.pic1,.pic2 {
-    /* padding-right: 25px; */
-}
-
 .pic-text {
     max-width: 320.86px;
 }
 
 .quote-section {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -159,7 +155,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .blue-box {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -196,7 +192,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .footer {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
